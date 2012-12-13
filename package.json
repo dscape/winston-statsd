@@ -1,6 +1,6 @@
 {
   "name": "winston-statsd",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "generates `statsd` from winston logs — extremely tailored to nodejitsu internal needs, use accordingly",
   "main": "lib/winston-statsd.js",
   "scripts": {
