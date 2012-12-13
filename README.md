@@ -105,7 +105,7 @@ you are right, this should be generalized and specified at setup time. feel free
 to run (and configure) the test suite simply:
 
 ``` sh
-cd nano
+cd winston-statsd
 npm install
 npm test
 ```
