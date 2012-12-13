@@ -1,8 +1,8 @@
 var macros  = require('./macros');
 
 //
-// Our `master` tests
-// should match `tests/fixtures/master.json`
+// Our `core` tests
+// should match `tests/fixtures/core.json`
 //
 macros.match_fixtures_test('core', function runTest(logger) {
   macros.args_for_fixtures('core').forEach(function (arg) {

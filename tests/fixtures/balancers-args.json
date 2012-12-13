@@ -1,0 +1,2826 @@
+[
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1779862472",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "thenewyork-now.jit.su",
+      "ipHash": "573300944",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.52.43",
+      "port": "8888",
+      "domains": [
+        "thenewyork-now.nodejitsu.com",
+        "thenewyork-now.jit.su",
+        "thenewyork-now.jitsu.com"
+      ],
+      "app": "thenewyork-now",
+      "user": "marciopuga",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1779862472",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "339642818",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.flatironjs.org",
+      "ipHash": "3842129801",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.53.72",
+      "port": "8080",
+      "domains": [
+        "flatiron.nodejitsu.com",
+        "flatiron.jit.su",
+        "flatiron.jitsu.com",
+        "flatironjs.org",
+        "flatironjs.com",
+        "flatironjs.net",
+        "www.flatironjs.org",
+        "www.flatironjs.com",
+        "www.flatironjs.net"
+      ],
+      "app": "flatiron-www",
+      "user": "nodejitsu",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1779862472",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "3440513541",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.coolence.com",
+      "ipHash": "3312675992",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.33.192",
+      "port": "3000",
+      "domains": [
+        "coolence.nodejitsu.com",
+        "coolence.jit.su",
+        "coolence.jitsu.com",
+        "coolence.com",
+        "www.coolence.com"
+      ],
+      "app": "coolence",
+      "user": "nmanousos",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:sni:lookup",
+    "2": {
+      "domain": "iic_sockets_staging.jit.su",
+      "event": "balancer:sni:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "webhooks.nodejitsu.com",
+      "ipHash": "1600319621",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "165.225.131.123",
+      "port": "3000",
+      "domains": [
+        "webhooks.nodejitsu.com",
+        "webhooks.jit.su",
+        "webhooks.jitsu.com"
+      ],
+      "app": "webhooks-api",
+      "user": "nodejitsu",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "iic_sockets_staging.jit.su",
+      "ipHash": "3788616408",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.43.119",
+      "port": "3000",
+      "domains": [
+        "iic_sockets_staging.nodejitsu.com",
+        "iic_sockets_staging.jit.su",
+        "iic_sockets_staging.jitsu.com"
+      ],
+      "app": "sockets-staging",
+      "user": "konklone",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "339642818",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "339642818",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "api.knock.io",
+      "ipHash": "1246534581",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.252",
+      "port": "8080",
+      "domains": [
+        "nlogn1.nodejitsu.com",
+        "nlogn1.jit.su",
+        "nlogn1.jitsu.com",
+        "api.knock.io",
+        "node.knock.io",
+        "api.getknockknock.com",
+        "node.getknockknock.com",
+        "node1.getknockknock.com",
+        "boot1.getknockknock.com",
+        "upload1.getknockknock.com"
+      ],
+      "app": "nlogn1",
+      "user": "nlogn",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:sni:lookup",
+    "2": {
+      "domain": "dns.jit.su",
+      "event": "balancer:sni:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "dns.jit.su",
+      "ipHash": "1600319621",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.14",
+      "port": "8080",
+      "domains": [
+        "dns.nodejitsu.com",
+        "dns.jit.su",
+        "dns.jitsu.com"
+      ],
+      "app": "dns",
+      "user": "nodejitsu",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "339642818",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "blog.nodejitsu.com",
+      "ipHash": "376377870",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.49.233",
+      "port": "8080",
+      "domains": [
+        "blog.nodejitsu.com",
+        "blog.jit.su",
+        "blog.jitsu.com"
+      ],
+      "app": "blog",
+      "user": "nodejitsu",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "339642818",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "339642818",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.insidernews.com.br",
+      "ipHash": "361811044",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.43.180",
+      "port": "8080",
+      "domains": [
+        "insidernews.nodejitsu.com",
+        "insidernews.jit.su",
+        "insidernews.jitsu.com",
+        "insidernews.com.br",
+        "www.insidernews.com.br"
+      ],
+      "app": "insiderNews",
+      "user": "filiped",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "165.225.130.237",
+      "ipHash": "1360286696",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:proxy:error",
+    "2": {
+      "status": "404",
+      "message": "No application found for \"165.225.130.237\"",
+      "event": "balancer:proxy:error"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "losangeles-now.nodejitsu.com",
+      "ipHash": "4044789923",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.35.159",
+      "port": "8888",
+      "domains": [
+        "losangeles-now.nodejitsu.com",
+        "losangeles-now.jit.su",
+        "losangeles-now.jitsu.com"
+      ],
+      "app": "losangeles-now",
+      "user": "marciopuga",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "saopaulo-now.nodejitsu.com",
+      "ipHash": "4044789923",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.39.49",
+      "port": "8888",
+      "domains": [
+        "saopaulo-now.nodejitsu.com",
+        "saopaulo-now.jit.su",
+        "saopaulo-now.jitsu.com"
+      ],
+      "app": "saopaulo-now",
+      "user": "marciopuga",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:sni:lookup",
+    "2": {
+      "domain": "blog.nodejitsu.com",
+      "event": "balancer:sni:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:sni:lookup",
+    "2": {
+      "domain": "balancer-status.jit.su",
+      "event": "balancer:sni:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:sni:lookup",
+    "2": {
+      "domain": "handbook.jit.su",
+      "event": "balancer:sni:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "blog.nodejitsu.com",
+      "ipHash": "1600319621",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.35.50",
+      "port": "8080",
+      "domains": [
+        "blog.nodejitsu.com",
+        "blog.jit.su",
+        "blog.jitsu.com"
+      ],
+      "app": "blog",
+      "user": "nodejitsu",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "handbook.jit.su",
+      "ipHash": "1600319621",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.38.86",
+      "port": "8080",
+      "domains": [
+        "handbook.nodejitsu.com",
+        "handbook.jit.su",
+        "handbook.jitsu.com"
+      ],
+      "app": "handbook",
+      "user": "nodejitsu",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "balancer-status.jit.su",
+      "ipHash": "1360286696",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.39.193",
+      "port": "8000",
+      "domains": [
+        "balancer-status.nodejitsu.com",
+        "balancer-status.jit.su",
+        "balancer-status.jitsu.com"
+      ],
+      "app": "balancer-status",
+      "user": "nodejitsu",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "339642818",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "339642818",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "ndrizza.inubit.jit.su",
+      "ipHash": "1534073375",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:proxy:error",
+    "2": {
+      "status": "404",
+      "message": "No application found for \"ndrizza.inubit.jit.su\"",
+      "event": "balancer:proxy:error"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "339642818",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "bartapmonitor.nodejitsu.com",
+      "ipHash": "3776716853",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.44.72",
+      "port": "8082",
+      "domains": [
+        "bartapmonitor.nodejitsu.com",
+        "bartapmonitor.jit.su",
+        "bartapmonitor.jitsu.com"
+      ],
+      "app": "BarTapMonitor",
+      "user": "danielmahon",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "3440513541",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "339642818",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "165.225.130.237",
+      "ipHash": "1600319621",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:proxy:error",
+    "2": {
+      "status": "404",
+      "message": "No application found for \"165.225.130.237\"",
+      "event": "balancer:proxy:error"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "api.knock.io",
+      "ipHash": "1246534581",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.252",
+      "port": "8080",
+      "domains": [
+        "nlogn1.nodejitsu.com",
+        "nlogn1.jit.su",
+        "nlogn1.jitsu.com",
+        "api.knock.io",
+        "node.knock.io",
+        "api.getknockknock.com",
+        "node.getknockknock.com",
+        "node1.getknockknock.com",
+        "boot1.getknockknock.com",
+        "upload1.getknockknock.com"
+      ],
+      "app": "nlogn1",
+      "user": "nlogn",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "youpy.jit.su",
+      "ipHash": "1944024046",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.51.2",
+      "port": "8001",
+      "domains": [
+        "youpy.nodejitsu.com",
+        "youpy.jit.su",
+        "youpy.jitsu.com",
+        "youpy.no.de"
+      ],
+      "app": "youpy.no.de",
+      "user": "youpy",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "93887734",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.tagalong.io",
+      "ipHash": "2528481869",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.39.170",
+      "port": "1024",
+      "domains": [
+        "tagalong.nodejitsu.com",
+        "tagalong.jit.su",
+        "tagalong.jitsu.com",
+        "tagalong.io",
+        "www.tagalong.io"
+      ],
+      "app": "tagalong.io",
+      "user": "doubletap",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "1457997002",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.insidernews.com.br",
+      "ipHash": "361811044",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.43.180",
+      "port": "8080",
+      "domains": [
+        "insidernews.nodejitsu.com",
+        "insidernews.jit.su",
+        "insidernews.jitsu.com",
+        "insidernews.com.br",
+        "www.insidernews.com.br"
+      ],
+      "app": "insiderNews",
+      "user": "filiped",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "www.roots.cx",
+      "ipHash": "194506264",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.243",
+      "port": "3000",
+      "domains": [
+        "roots.nodejitsu.com",
+        "roots.jit.su",
+        "roots.jitsu.com",
+        "roots.cx",
+        "www.roots.cx"
+      ],
+      "app": "roots.cx",
+      "user": "jenius",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "api.knock.io",
+      "ipHash": "1834562898",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.46.252",
+      "port": "8080",
+      "domains": [
+        "nlogn1.nodejitsu.com",
+        "nlogn1.jit.su",
+        "nlogn1.jitsu.com",
+        "api.knock.io",
+        "node.knock.io",
+        "api.getknockknock.com",
+        "node.getknockknock.com",
+        "node1.getknockknock.com",
+        "boot1.getknockknock.com",
+        "upload1.getknockknock.com"
+      ],
+      "app": "nlogn1",
+      "user": "nlogn",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "node2.getknockknock.com",
+      "ipHash": "692811877",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.47.47",
+      "port": "8080",
+      "domains": [
+        "nlogn.nodejitsu.com",
+        "nlogn.jit.su",
+        "nlogn.jitsu.com",
+        "api2.knock.io",
+        "node2.knock.io",
+        "api2.getknockknock.com",
+        "node2.getknockknock.com",
+        "boot2.getknockknock.com",
+        "upload2.getknockknock.com"
+      ],
+      "app": "nlogn",
+      "user": "nlogn",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "newtabbundler.bundleserver.jit.su",
+      "ipHash": "3372983913",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.51.47",
+      "port": "8000",
+      "domains": [
+        "newtabbundler.bundleserver.nodejitsu.com",
+        "newtabbundler.bundleserver.jit.su",
+        "newtabbundler.bundleserver.jitsu.com"
+      ],
+      "app": "bundleServer",
+      "user": "newtabbundler",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "255410785",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "binb.nodejitsu.com",
+      "ipHash": "3757080230",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.48.99",
+      "port": "8138",
+      "domains": [
+        "binb.nodejitsu.com",
+        "binb.jit.su",
+        "binb.jitsu.com"
+      ],
+      "app": "binb",
+      "user": "lupin",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup",
+    "2": {
+      "domain": "protobowl.nodejitsu.com",
+      "ipHash": "537946094",
+      "event": "balancer:lookup"
+    }
+  },
+  {
+    "0": "info",
+    "1": "balancer:lookup:success",
+    "2": {
+      "host": "10.112.41.1",
+      "port": "5555",
+      "domains": [
+        "protobowl.nodejitsu.com",
+        "protobowl.jit.su",
+        "protobowl.jitsu.com",
+        "protobowl.com"
+      ],
+      "app": "protobowl",
+      "user": "protobowl",
+      "state": "started",
+      "event": "balancer:lookup:success"
+    }
+  }
+]

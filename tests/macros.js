@@ -120,12 +120,11 @@ macros.udp_fixtures_server = function (test_name, t, on_test) {
     //
     // if we are done
     //
-    if(i_requests === nr_requests) {
+    if(i_requests >= nr_requests) {
       //
       // close the server
       //
       socket.close();
-
       //
       // tests are complete
       //
