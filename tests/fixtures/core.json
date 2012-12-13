@@ -1,0 +1,6 @@
+[ "info.gauge:50|g"
+, "info.set:100|s"
+, "info.count:-1|c"
+, "info.timing:500|ms"
+, "warn.foobar:1|c|@1"
+]

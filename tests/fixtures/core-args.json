@@ -1,0 +1,43 @@
+[
+    {
+        "0": "info",
+        "1": "gauge",
+        "2": {
+            "statsd_v": 50,
+            "statsd_s": "g"
+        }
+    },
+    {
+        "0": "info",
+        "1": "set",
+        "2": {
+            "statsd_v": 100,
+            "statsd_s": "s"
+        }
+    },
+    {
+        "0": "info",
+        "1": "count",
+        "2": {
+            "statsd_v": -1,
+            "statsd_s": "c"
+        }
+    },
+    {
+        "0": "info",
+        "1": "timing",
+        "2": {
+            "statsd_v": 500,
+            "statsd_s": "ms"
+        }
+    },
+    {
+        "0": "warn",
+        "1": "foobar",
+        "2": {
+            "statsd_v": 1,
+            "statsd_s": "c",
+            "statsd_sample_rate": 1
+        }
+    }
+]

@@ -4,7 +4,7 @@
   "description": "generates `statsd` from winston logs — extremely tailored to nodejitsu internal needs, use accordingly",
   "main": "lib/winston-statsd.js",
   "scripts": {
-    "test": "echo \"error: no test specified\" && exit 1"
+    "test": "tap tests/*-tests.js"
   },
   "repository": {
     "type": "git",
