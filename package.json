@@ -1,0 +1,22 @@
+{
+  "name": "winston-statsd",
+  "version": "0.0.0",
+  "description": "Generates `statsd` from winston logs — Extremely tailored to Nodejitsu internal needs, use accordingly",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dscape/winston-statsd.git"
+  },
+  "keywords": [
+    "statsd",
+    "winston",
+    "logging",
+    "log",
+    "winstond"
+  ],
+  "author": "Nuno Job <nunojobpinto@gmail.com> (http://nunojob.com)",
+  "license": "MIT"
+}
