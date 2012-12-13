@@ -1,0 +1,3685 @@
+[
+    {
+        "0": "error",
+        "1": "app:destroy",
+        "2": {
+            "app": "nosuchapp",
+            "username": "charlie",
+            "event": "app:destroy"
+        }
+    },
+    {
+        "0": "error",
+        "1": "app:destroy",
+        "2": {
+            "app": "test",
+            "username": "invalid_sauce",
+            "event": "app:destroy"
+        }
+    },
+    {
+        "0": "error",
+        "1": "app:show",
+        "2": {
+            "app": "INVALID_SAUCE",
+            "username": "marak",
+            "error": "not_found",
+            "event": "app:show"
+        }
+    },
+    {
+        "0": "error",
+        "1": "app:show",
+        "2": {
+            "app": "chat",
+            "username": "charlie",
+            "error": "not_found",
+            "event": "app:show"
+        }
+    },
+    {
+        "0": "error",
+        "1": "app:show",
+        "2": {
+            "app": "test",
+            "username": "invalid_sauce",
+            "error": "not_found",
+            "event": "app:show"
+        }
+    },
+    {
+        "0": "error",
+        "1": "app:slave:tell",
+        "2": {
+            "app": "test",
+            "username": "marak",
+            "index": 0,
+            "address": "api.nodejitsu.com",
+            "error": "connect ECONNREFUSED",
+            "event": "app:slave:tell"
+        }
+    },
+    {
+        "0": "error",
+        "1": "error:service",
+        "2": {
+            "message": "Cannot restart application that is not running.",
+            "stack": "Error: Cannot restart application that is not running.\n    at Drone.restart (/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/lib/haibu/drone/drone.js:222:21)\n    at Object.exports.createRouter.haibu.router.path.post.res (/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/lib/haibu/drone/service.js:153:13)\n    at apply (/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/flatiron/node_modules/director/lib/director/router.js:350:12)\n    at iterate (/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/flatiron/node_modules/director/lib/director/router.js:45:5)\n    at _asyncEverySeries (/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/flatiron/node_modules/director/lib/director/router.js:60:5)\n    at Router.invoke (/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/flatiron/node_modules/director/lib/director/router.js:345:5)\n    at parseAndInvoke (/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/flatiron/node_modules/director/lib/director/http/index.js:127:10)\n    at g (events.js:193:14)\n    at EventEmitter.emit (events.js:123:20)\n    at vows.describe.options.Emitter.emit (/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/vows/lib/vows.js:237:24)",
+            "event": "error:service"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:begin:all",
+        "2": {
+            "app": "envvars",
+            "username": "marak",
+            "servers": [
+                null
+            ],
+            "event": "app:begin:all"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:create:begin",
+        "2": {
+            "app": "test",
+            "username": "charlie",
+            "event": "app:create:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:create:success",
+        "2": {
+            "app": "test",
+            "username": "charlie",
+            "event": "app:create:success"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:destroy:begin",
+        "2": {
+            "app": "nosuchapp",
+            "username": "charlie",
+            "event": "app:destroy:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:destroy:begin",
+        "2": {
+            "app": "test",
+            "username": "charlie",
+            "event": "app:destroy:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:destroy:begin",
+        "2": {
+            "app": "test",
+            "username": "invalid_sauce",
+            "event": "app:destroy:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:destroy:success",
+        "2": {
+            "app": "test",
+            "username": "charlie",
+            "event": "app:destroy:success"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:list:begin",
+        "2": {
+            "username": "charlie",
+            "event": "app:list:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:list:begin",
+        "2": {
+            "username": "nodejitsu",
+            "event": "app:list:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:list:success",
+        "2": {
+            "username": "charlie",
+            "event": "app:list:success"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:list:success",
+        "2": {
+            "username": "nodejitsu",
+            "event": "app:list:success"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:provision:begin",
+        "2": {
+            "app": "envvars",
+            "username": "marak",
+            "drones": 1,
+            "event": "app:provision:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:show:begin",
+        "2": {
+            "app": "INVALID_SAUCE",
+            "username": "marak",
+            "event": "app:show:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:show:begin",
+        "2": {
+            "app": "test",
+            "username": "invalid_sauce",
+            "event": "app:show:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:slave:tell",
+        "2": {
+            "action": "start",
+            "app": "badapp",
+            "username": "marak",
+            "index": 0,
+            "address": "127.0.0.1",
+            "port": 9003,
+            "event": "app:slave:tell"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:slave:tell",
+        "2": {
+            "action": "start",
+            "app": "badapp",
+            "username": "marak",
+            "index": 0,
+            "address": "127.0.0.1",
+            "port": 9006,
+            "event": "app:slave:tell"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:slave:tell",
+        "2": {
+            "action": "start",
+            "app": "envvars",
+            "username": "marak",
+            "index": 0,
+            "address": "127.0.0.1",
+            "port": 9003,
+            "event": "app:slave:tell"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:slave:tell",
+        "2": {
+            "action": "start",
+            "app": "test",
+            "username": "marak",
+            "index": 0,
+            "address": "127.0.0.1",
+            "port": 9003,
+            "event": "app:slave:tell"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:slave:tell",
+        "2": {
+            "action": "start",
+            "app": "test",
+            "username": "marak",
+            "index": 0,
+            "address": "api.nodejitsu.com",
+            "port": 9006,
+            "event": "app:slave:tell"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:slave:tell:success",
+        "2": {
+            "action": "start",
+            "app": "envvars",
+            "username": "marak",
+            "index": 0,
+            "address": "127.0.0.1",
+            "event": "app:slave:tell:success"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:start:begin",
+        "2": {
+            "app": "chat",
+            "username": "charlie",
+            "event": "app:start:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:start:begin",
+        "2": {
+            "app": "envvars",
+            "username": "marak",
+            "event": "app:start:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:start:success",
+        "2": {
+            "app": "envvars",
+            "username": "marak",
+            "event": "app:start:success"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:stop:begin",
+        "2": {
+            "app": "envvars",
+            "username": "marak",
+            "event": "app:stop:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:update:begin",
+        "2": {
+            "app": "chat",
+            "username": "charlie",
+            "event": "app:update:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:update:begin",
+        "2": {
+            "app": "test",
+            "username": "charlie",
+            "event": "app:update:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:update:success",
+        "2": {
+            "app": "chat",
+            "username": "charlie",
+            "event": "app:update:success"
+        }
+    },
+    {
+        "0": "info",
+        "1": "app:update:success",
+        "2": {
+            "app": "test",
+            "username": "charlie",
+            "event": "app:update:success"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:port",
+        "2": {
+            "pkg": {
+                "_id": "envvars",
+                "name": "envvars",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.envvars",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-envvars-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "username": "someone-secretz",
+                    "password": "mad-secretz",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-envvars.com",
+                    "marak-envvars.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-222e07436aa29c33e88fe5e755bc3601",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-envvars-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-envvars-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-envvars-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "info": {
+                "event": "port",
+                "data": {
+                    "addr": "0.0.0.0",
+                    "port": 8456,
+                    "desired": 8456
+                }
+            },
+            "event": "drone:port"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:port",
+        "2": {
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "started",
+                "maxDrones": 1,
+                "drones": [
+                    {
+                        "ctime": 1355355251792,
+                        "command": "node",
+                        "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                        "foreverPid": 41606,
+                        "options": [
+                            "--plugin",
+                            "net",
+                            "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                        ],
+                        "pid": 41607,
+                        "silent": true,
+                        "uid": "SlRc",
+                        "spawnWith": {
+                            "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                            "env": {
+                                "TERM": "xterm-256color",
+                                "LC_ALL": "en_US.UTF-8",
+                                "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                                "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                                "MAIL": "/var/mail/root",
+                                "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                                "EDITOR": "vim",
+                                "LANG": "en_US",
+                                "HOME": "/Users/dscape",
+                                "COLORFGBG": "7;0",
+                                "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                                "SHELL": "/bin/sh",
+                                "LOGNAME": "root",
+                                "USER": "root",
+                                "USERNAME": "root",
+                                "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                                "SUDO_USER": "root",
+                                "SUDO_UID": "0",
+                                "SUDO_GID": "0",
+                                "NO_BILLING": "1",
+                                "SUBDOMAIN": "marak.test",
+                                "NODE_ENV": "production",
+                                "npm_config_rebuild_bundle": false,
+                                "npm_config_production": true
+                            },
+                            "stdio": [
+                                "pipe",
+                                "pipe",
+                                "pipe",
+                                "ipc"
+                            ]
+                        },
+                        "env": "development",
+                        "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                        "repository": null,
+                        "port": 80,
+                        "host": "127.0.0.1"
+                    }
+                ],
+                "mtime": 1355355251980,
+                "resource": "App",
+                "_rev": "7-a8d98d54c0b6ef6f39dc85fbc5ab9240",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "last": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "info": {
+                "event": "port",
+                "data": {
+                    "addr": "0.0.0.0",
+                    "port": 60327,
+                    "desired": 80
+                }
+            },
+            "event": "drone:port"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:port",
+        "2": {
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": 1,
+                "mtime": 1355355246670,
+                "resource": "App",
+                "_rev": "5-49604240cce0b5cf305a49e006633e35",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "last": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "info": {
+                "event": "port",
+                "data": {
+                    "addr": "0.0.0.0",
+                    "port": 60300,
+                    "desired": 80
+                }
+            },
+            "event": "drone:port"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:port",
+        "2": {
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "mtime": 1355355246670,
+                "resource": "App",
+                "_rev": "5-49604240cce0b5cf305a49e006633e35",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "last": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "info": {
+                "event": "port",
+                "data": {
+                    "addr": "0.0.0.0",
+                    "port": 80,
+                    "desired": 80
+                }
+            },
+            "event": "drone:port"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:port",
+        "2": {
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-c90fcefd45c83e4acf38249f44ff95dd",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "info": {
+                "event": "port",
+                "data": {
+                    "addr": "0.0.0.0",
+                    "port": 80,
+                    "desired": 80
+                }
+            },
+            "event": "drone:port"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:start",
+        "2": {
+            "process": {
+                "ctime": 1355355241957,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41593,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package/index.js"
+                ],
+                "pid": 41594,
+                "silent": true,
+                "uid": "dYFX",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package"
+            },
+            "pkg": {
+                "_id": "badapp",
+                "name": "badapp",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.badapp",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-badapp-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-badapp.com",
+                    "marak-badapp.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-90c4be718157b467ac8c84fca3bf1608",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-badapp-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:start"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:start",
+        "2": {
+            "process": {
+                "ctime": 1355355242094,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41593,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package/index.js"
+                ],
+                "pid": 41595,
+                "silent": true,
+                "uid": "dYFX",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package"
+            },
+            "pkg": {
+                "_id": "badapp",
+                "name": "badapp",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.badapp",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-badapp-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-badapp.com",
+                    "marak-badapp.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-90c4be718157b467ac8c84fca3bf1608",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-badapp-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:start"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:start",
+        "2": {
+            "process": {
+                "ctime": 1355355244171,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41593,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars/package/index.js"
+                ],
+                "pid": 41596,
+                "silent": true,
+                "uid": "0DxZ",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars/package",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "username": "someone-secretz",
+                        "password": "mad-secretz",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars/package"
+            },
+            "pkg": {
+                "_id": "envvars",
+                "name": "envvars",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.envvars",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-envvars-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "username": "someone-secretz",
+                    "password": "mad-secretz",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-envvars.com",
+                    "marak-envvars.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-222e07436aa29c33e88fe5e755bc3601",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-envvars-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-envvars-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-envvars-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:start"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:start",
+        "2": {
+            "process": {
+                "ctime": 1355355246272,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41593,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                ],
+                "pid": 41599,
+                "silent": true,
+                "uid": "H6kL",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode"
+            },
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-c90fcefd45c83e4acf38249f44ff95dd",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:start"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:start",
+        "2": {
+            "process": {
+                "ctime": 1355355246575,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41593,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                ],
+                "pid": 41602,
+                "silent": true,
+                "uid": "H6kL",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode"
+            },
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-c90fcefd45c83e4acf38249f44ff95dd",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:start"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:start",
+        "2": {
+            "process": {
+                "ctime": 1355355251792,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41606,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                ],
+                "pid": 41607,
+                "silent": true,
+                "uid": "SlRc",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "SUBDOMAIN": "marak.test",
+                        "NODE_ENV": "production",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode"
+            },
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "mtime": 1355355246670,
+                "resource": "App",
+                "_rev": "5-49604240cce0b5cf305a49e006633e35",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "last": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:start"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:start",
+        "2": {
+            "process": {
+                "ctime": 1355355253452,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41608,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                ],
+                "pid": 41609,
+                "silent": true,
+                "uid": "bz5Z",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "SUBDOMAIN": "marak.test",
+                        "NODE_ENV": "production",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode"
+            },
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": 1,
+                "mtime": 1355355246670,
+                "resource": "App",
+                "_rev": "5-49604240cce0b5cf305a49e006633e35",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "last": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:start"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:start",
+        "2": {
+            "process": {
+                "ctime": 1355355255878,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41608,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                ],
+                "pid": 41612,
+                "silent": true,
+                "uid": "apWl",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "SUBDOMAIN": "marak.test",
+                        "NODE_ENV": "production",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode"
+            },
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "started",
+                "maxDrones": 1,
+                "drones": [
+                    {
+                        "ctime": 1355355251792,
+                        "command": "node",
+                        "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                        "foreverPid": 41606,
+                        "options": [
+                            "--plugin",
+                            "net",
+                            "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                        ],
+                        "pid": 41607,
+                        "silent": true,
+                        "uid": "SlRc",
+                        "spawnWith": {
+                            "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                            "env": {
+                                "TERM": "xterm-256color",
+                                "LC_ALL": "en_US.UTF-8",
+                                "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                                "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                                "MAIL": "/var/mail/root",
+                                "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                                "EDITOR": "vim",
+                                "LANG": "en_US",
+                                "HOME": "/Users/dscape",
+                                "COLORFGBG": "7;0",
+                                "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                                "SHELL": "/bin/sh",
+                                "LOGNAME": "root",
+                                "USER": "root",
+                                "USERNAME": "root",
+                                "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                                "SUDO_USER": "root",
+                                "SUDO_UID": "0",
+                                "SUDO_GID": "0",
+                                "NO_BILLING": "1",
+                                "SUBDOMAIN": "marak.test",
+                                "NODE_ENV": "production",
+                                "npm_config_rebuild_bundle": false,
+                                "npm_config_production": true
+                            },
+                            "stdio": [
+                                "pipe",
+                                "pipe",
+                                "pipe",
+                                "ipc"
+                            ]
+                        },
+                        "env": "development",
+                        "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                        "repository": null,
+                        "port": 80,
+                        "host": "127.0.0.1"
+                    }
+                ],
+                "mtime": 1355355251980,
+                "resource": "App",
+                "_rev": "7-a8d98d54c0b6ef6f39dc85fbc5ab9240",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "last": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:start"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:start",
+        "2": {
+            "process": {
+                "ctime": 1355355258055,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41608,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package/index.js"
+                ],
+                "pid": 41615,
+                "silent": true,
+                "uid": "b4BX",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package"
+            },
+            "pkg": {
+                "_id": "badapp",
+                "name": "badapp",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.badapp",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-badapp-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-badapp.com",
+                    "marak-badapp.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-90c4be718157b467ac8c84fca3bf1608",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-badapp-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:start"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:start",
+        "2": {
+            "process": {
+                "ctime": 1355355258202,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41608,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package/index.js"
+                ],
+                "pid": 41616,
+                "silent": true,
+                "uid": "b4BX",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package"
+            },
+            "pkg": {
+                "_id": "badapp",
+                "name": "badapp",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.badapp",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-badapp-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-badapp.com",
+                    "marak-badapp.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-90c4be718157b467ac8c84fca3bf1608",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-badapp-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:start"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:stop",
+        "2": {
+            "process": {
+                "ctime": 1355355241957,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41593,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package/index.js"
+                ],
+                "pid": 41594,
+                "silent": true,
+                "uid": "dYFX",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package"
+            },
+            "pkg": {
+                "_id": "badapp",
+                "name": "badapp",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.badapp",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-badapp-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-badapp.com",
+                    "marak-badapp.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-90c4be718157b467ac8c84fca3bf1608",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-badapp-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:stop"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:stop",
+        "2": {
+            "process": {
+                "ctime": 1355355246272,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41593,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                ],
+                "pid": 41599,
+                "silent": true,
+                "uid": "H6kL",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode"
+            },
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-c90fcefd45c83e4acf38249f44ff95dd",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:stop"
+        }
+    },
+    {
+        "0": "info",
+        "1": "drone:stop",
+        "2": {
+            "process": {
+                "ctime": 1355355258055,
+                "command": "node",
+                "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                "foreverPid": 41608,
+                "options": [
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package/index.js"
+                ],
+                "pid": 41615,
+                "silent": true,
+                "uid": "b4BX",
+                "spawnWith": {
+                    "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package",
+                    "env": {
+                        "TERM": "xterm-256color",
+                        "LC_ALL": "en_US.UTF-8",
+                        "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                        "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                        "MAIL": "/var/mail/root",
+                        "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                        "EDITOR": "vim",
+                        "LANG": "en_US",
+                        "HOME": "/Users/dscape",
+                        "COLORFGBG": "7;0",
+                        "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                        "SHELL": "/bin/sh",
+                        "LOGNAME": "root",
+                        "USER": "root",
+                        "USERNAME": "root",
+                        "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                        "SUDO_USER": "root",
+                        "SUDO_UID": "0",
+                        "SUDO_GID": "0",
+                        "NO_BILLING": "1",
+                        "npm_config_rebuild_bundle": false,
+                        "npm_config_production": true
+                    },
+                    "stdio": [
+                        "pipe",
+                        "pipe",
+                        "pipe",
+                        "ipc"
+                    ]
+                },
+                "env": "development",
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package"
+            },
+            "pkg": {
+                "_id": "badapp",
+                "name": "badapp",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.badapp",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-badapp-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-badapp.com",
+                    "marak-badapp.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-90c4be718157b467ac8c84fca3bf1608",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-badapp-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "drone:stop"
+        }
+    },
+    {
+        "0": "info",
+        "1": "npm:install:none",
+        "2": {
+            "app": "envvars",
+            "user": "marak",
+            "event": "npm:install:none"
+        }
+    },
+    {
+        "0": "info",
+        "1": "repo:dir:app:create",
+        "2": {
+            "app": "envvars",
+            "user": "marak",
+            "dir": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars",
+            "event": "repo:dir:app:create"
+        }
+    },
+    {
+        "0": "info",
+        "1": "repo:dir:app:success",
+        "2": {
+            "app": "envvars",
+            "user": "marak",
+            "dir": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars",
+            "event": "repo:dir:app:success"
+        }
+    },
+    {
+        "0": "info",
+        "1": "repo:dir:exists",
+        "2": {
+            "app": "envvars",
+            "user": "marak",
+            "dir": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars/package",
+            "event": "repo:dir:exists"
+        }
+    },
+    {
+        "0": "info",
+        "1": "repo:dir:user:create",
+        "2": {
+            "app": "envvars",
+            "user": "marak",
+            "dir": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak",
+            "event": "repo:dir:user:create"
+        }
+    },
+    {
+        "0": "info",
+        "1": "repo:dir:user:success",
+        "2": {
+            "app": "envvars",
+            "user": "marak",
+            "dir": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak",
+            "event": "repo:dir:user:success"
+        }
+    },
+    {
+        "0": "info",
+        "1": "repository:create",
+        "2": {
+            "type": "tar",
+            "app": "envvars",
+            "user": "marak",
+            "event": "repository:create"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "DELETE",
+            "url": "/apps/charlie/nosuchapp",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/apps",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/apps/charlie",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/apps/charlie/nosuchapp",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/apps/marak",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/apps/newuser/chat/available",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/auth",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/search/marak/ch",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/search/no",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/users",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/users/marak",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "GET",
+            "url": "/version",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/apps/charlie/chat/start",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/apps/marak/badapp/start",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/apps/marak/legal/available",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/apps/marak/test/restart",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/apps/marak/test/snapshots",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/apps/marak/test/stop",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/apps/newuser/chat/available",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/apps/nodejitsu/chat/available",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/databases/charlie/mycouch1355355259356",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/databases/charlie/mymongo1355355259356",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/databases/charlie/myredis1355355259356",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "POST",
+            "url": "/users/Benji",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "service:incoming",
+        "2": {
+            "method": "PUT",
+            "url": "/apps/charlie/chat",
+            "remoteAddress": "127.0.0.1",
+            "event": "service:incoming"
+        }
+    },
+    {
+        "0": "info",
+        "1": "spawn:begin",
+        "2": {
+            "options": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace --plugin net /Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package/index.js",
+            "app": "badapp",
+            "user": "marak",
+            "drone": {
+                "silent": true,
+                "killTree": true,
+                "uid": "b4BX",
+                "max": 2,
+                "childExists": false,
+                "checkFile": true,
+                "times": 0,
+                "minUptime": 0,
+                "spinSleepTime": null,
+                "command": "node",
+                "args": [
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package/index.js"
+                ],
+                "spawnWith": {},
+                "fork": true,
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package",
+                "hideEnv": [],
+                "_env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "_hideEnv": {},
+                "watchIgnoreDotFiles": true,
+                "watchIgnorePatterns": [],
+                "delimiter": "::",
+                "_events": {},
+                "wildcard": true,
+                "listenerTree": {
+                    "start": {},
+                    "restart": {},
+                    "exit": {},
+                    "error": {}
+                },
+                "options": {
+                    "bootstrapper": {}
+                },
+                "env": "development",
+                "plugins": {},
+                "initialized": false,
+                "bootstrapper": {},
+                "initializers": {},
+                "initlist": []
+            },
+            "pkg": {
+                "_id": "badapp",
+                "name": "badapp",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.badapp",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-badapp-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-badapp.com",
+                    "marak-badapp.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-90c4be718157b467ac8c84fca3bf1608",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-badapp-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "spawn:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "spawn:begin",
+        "2": {
+            "options": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace --plugin net /Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package/index.js",
+            "app": "badapp",
+            "user": "marak",
+            "drone": {
+                "silent": true,
+                "killTree": true,
+                "uid": "dYFX",
+                "max": 2,
+                "childExists": false,
+                "checkFile": true,
+                "times": 0,
+                "minUptime": 0,
+                "spinSleepTime": null,
+                "command": "node",
+                "args": [
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package/index.js"
+                ],
+                "spawnWith": {},
+                "fork": true,
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/badapp/package",
+                "hideEnv": [],
+                "_env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "_hideEnv": {},
+                "watchIgnoreDotFiles": true,
+                "watchIgnorePatterns": [],
+                "delimiter": "::",
+                "_events": {},
+                "wildcard": true,
+                "listenerTree": {
+                    "start": {},
+                    "restart": {},
+                    "exit": {},
+                    "error": {}
+                },
+                "options": {
+                    "bootstrapper": {}
+                },
+                "env": "development",
+                "plugins": {},
+                "initialized": false,
+                "bootstrapper": {},
+                "initializers": {},
+                "initlist": []
+            },
+            "pkg": {
+                "_id": "badapp",
+                "name": "badapp",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.badapp",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-badapp-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-badapp.com",
+                    "marak-badapp.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-90c4be718157b467ac8c84fca3bf1608",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-badapp-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-badapp-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "spawn:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "spawn:begin",
+        "2": {
+            "options": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace --plugin net /Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars/package/index.js",
+            "app": "envvars",
+            "user": "marak",
+            "drone": {
+                "silent": true,
+                "killTree": true,
+                "uid": "0DxZ",
+                "max": 2,
+                "childExists": false,
+                "checkFile": true,
+                "times": 0,
+                "minUptime": 0,
+                "spinSleepTime": null,
+                "command": "node",
+                "args": [
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars/package/index.js"
+                ],
+                "spawnWith": {},
+                "fork": true,
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars/package",
+                "hideEnv": [],
+                "_env": {
+                    "username": "someone-secretz",
+                    "password": "mad-secretz",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "_hideEnv": {},
+                "watchIgnoreDotFiles": true,
+                "watchIgnorePatterns": [],
+                "delimiter": "::",
+                "_events": {},
+                "wildcard": true,
+                "listenerTree": {
+                    "start": {},
+                    "restart": {},
+                    "exit": {},
+                    "error": {}
+                },
+                "options": {
+                    "bootstrapper": {}
+                },
+                "env": "development",
+                "plugins": {},
+                "initialized": false,
+                "bootstrapper": {},
+                "initializers": {},
+                "initlist": []
+            },
+            "pkg": {
+                "_id": "envvars",
+                "name": "envvars",
+                "scripts": {
+                    "start": "index.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.envvars",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-envvars-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "username": "someone-secretz",
+                    "password": "mad-secretz",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-envvars.com",
+                    "marak-envvars.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-222e07436aa29c33e88fe5e755bc3601",
+                "directories": {
+                    "home": "package"
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-envvars-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-envvars-0.0.0.tgz"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-envvars-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "spawn:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "spawn:begin",
+        "2": {
+            "options": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace --plugin net /Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js",
+            "app": "test",
+            "user": "marak",
+            "drone": {
+                "silent": true,
+                "killTree": true,
+                "uid": "H6kL",
+                "max": 2,
+                "childExists": false,
+                "checkFile": true,
+                "times": 0,
+                "minUptime": 0,
+                "spinSleepTime": null,
+                "command": "node",
+                "args": [
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                ],
+                "spawnWith": {},
+                "fork": true,
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                "hideEnv": [],
+                "_env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "_hideEnv": {},
+                "watchIgnoreDotFiles": true,
+                "watchIgnorePatterns": [],
+                "delimiter": "::",
+                "_events": {},
+                "wildcard": true,
+                "listenerTree": {
+                    "start": {},
+                    "restart": {},
+                    "exit": {},
+                    "error": {}
+                },
+                "options": {
+                    "bootstrapper": {}
+                },
+                "env": "development",
+                "plugins": {},
+                "initialized": false,
+                "bootstrapper": {},
+                "initializers": {},
+                "initlist": []
+            },
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "resource": "App",
+                "_rev": "1-c90fcefd45c83e4acf38249f44ff95dd",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "spawn:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "spawn:begin",
+        "2": {
+            "options": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace --plugin net /Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js",
+            "app": "test",
+            "user": "marak",
+            "drone": {
+                "silent": true,
+                "killTree": true,
+                "uid": "SlRc",
+                "max": 2,
+                "childExists": false,
+                "checkFile": true,
+                "times": 0,
+                "minUptime": 0,
+                "spinSleepTime": null,
+                "command": "node",
+                "args": [
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                ],
+                "spawnWith": {},
+                "fork": true,
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                "hideEnv": [],
+                "_env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "_hideEnv": {},
+                "watchIgnoreDotFiles": true,
+                "watchIgnorePatterns": [],
+                "delimiter": "::",
+                "_events": {},
+                "wildcard": true,
+                "listenerTree": {
+                    "start": {},
+                    "restart": {},
+                    "exit": {},
+                    "error": {}
+                },
+                "options": {
+                    "bootstrapper": {}
+                },
+                "env": "development",
+                "plugins": {},
+                "initialized": false,
+                "bootstrapper": {},
+                "initializers": {},
+                "initlist": []
+            },
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": [],
+                "mtime": 1355355246670,
+                "resource": "App",
+                "_rev": "5-49604240cce0b5cf305a49e006633e35",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "last": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "spawn:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "spawn:begin",
+        "2": {
+            "options": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace --plugin net /Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js",
+            "app": "test",
+            "user": "marak",
+            "drone": {
+                "silent": true,
+                "killTree": true,
+                "uid": "apWl",
+                "max": 2,
+                "childExists": false,
+                "checkFile": true,
+                "times": 0,
+                "minUptime": 0,
+                "spinSleepTime": null,
+                "command": "node",
+                "args": [
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                ],
+                "spawnWith": {},
+                "fork": true,
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                "hideEnv": [],
+                "_env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "_hideEnv": {},
+                "watchIgnoreDotFiles": true,
+                "watchIgnorePatterns": [],
+                "delimiter": "::",
+                "_events": {},
+                "wildcard": true,
+                "listenerTree": {
+                    "start": {},
+                    "restart": {},
+                    "exit": {},
+                    "error": {}
+                },
+                "options": {
+                    "bootstrapper": {}
+                },
+                "env": "development",
+                "plugins": {},
+                "initialized": false,
+                "bootstrapper": {},
+                "initializers": {},
+                "initlist": []
+            },
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "started",
+                "maxDrones": 1,
+                "drones": [
+                    {
+                        "ctime": 1355355251792,
+                        "command": "node",
+                        "file": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                        "foreverPid": 41606,
+                        "options": [
+                            "--plugin",
+                            "net",
+                            "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                        ],
+                        "pid": 41607,
+                        "silent": true,
+                        "uid": "SlRc",
+                        "spawnWith": {
+                            "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                            "env": {
+                                "TERM": "xterm-256color",
+                                "LC_ALL": "en_US.UTF-8",
+                                "SSH_AUTH_SOCK": "/tmp/launch-tJJhjF/Listeners",
+                                "__CF_USER_TEXT_ENCODING": "0x0:0:0",
+                                "MAIL": "/var/mail/root",
+                                "PATH": "/usr/local/bin:/Users/dscape/Desktop/dev/npm/bin/node-gyp-bin:/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin",
+                                "EDITOR": "vim",
+                                "LANG": "en_US",
+                                "HOME": "/Users/dscape",
+                                "COLORFGBG": "7;0",
+                                "DISPLAY": "/tmp/launch-tAVo5U/org.x:0",
+                                "SHELL": "/bin/sh",
+                                "LOGNAME": "root",
+                                "USER": "root",
+                                "USERNAME": "root",
+                                "SUDO_COMMAND": "bin/test --no-logs --no-billing",
+                                "SUDO_USER": "root",
+                                "SUDO_UID": "0",
+                                "SUDO_GID": "0",
+                                "NO_BILLING": "1",
+                                "SUBDOMAIN": "marak.test",
+                                "NODE_ENV": "production",
+                                "npm_config_rebuild_bundle": false,
+                                "npm_config_production": true
+                            },
+                            "stdio": [
+                                "pipe",
+                                "pipe",
+                                "pipe",
+                                "ipc"
+                            ]
+                        },
+                        "env": "development",
+                        "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                        "repository": null,
+                        "port": 80,
+                        "host": "127.0.0.1"
+                    }
+                ],
+                "mtime": 1355355251980,
+                "resource": "App",
+                "_rev": "7-a8d98d54c0b6ef6f39dc85fbc5ab9240",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "last": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "spawn:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "spawn:begin",
+        "2": {
+            "options": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace --plugin net /Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js",
+            "app": "test",
+            "user": "marak",
+            "drone": {
+                "silent": true,
+                "killTree": true,
+                "uid": "bz5Z",
+                "max": 2,
+                "childExists": false,
+                "checkFile": true,
+                "times": 0,
+                "minUptime": 0,
+                "spinSleepTime": null,
+                "command": "node",
+                "args": [
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/node_modules/haibu-carapace/bin/carapace",
+                    "--plugin",
+                    "net",
+                    "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode/server.js"
+                ],
+                "spawnWith": {},
+                "fork": true,
+                "cwd": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/test/hellonode",
+                "hideEnv": [],
+                "_env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "_hideEnv": {},
+                "watchIgnoreDotFiles": true,
+                "watchIgnorePatterns": [],
+                "delimiter": "::",
+                "_events": {},
+                "wildcard": true,
+                "listenerTree": {
+                    "start": {},
+                    "restart": {},
+                    "exit": {},
+                    "error": {}
+                },
+                "options": {
+                    "bootstrapper": {}
+                },
+                "env": "development",
+                "plugins": {},
+                "initialized": false,
+                "bootstrapper": {},
+                "initializers": {},
+                "initlist": []
+            },
+            "pkg": {
+                "_id": "test",
+                "name": "test",
+                "scripts": {
+                    "start": "server.js"
+                },
+                "user": "marak",
+                "subdomain": "marak.test",
+                "snapshots": [
+                    {
+                        "id": "0.0.0",
+                        "md5": "0123456789",
+                        "ctime": 1355355209005,
+                        "filename": "marak-test-0.0.0.tgz"
+                    }
+                ],
+                "env": {
+                    "SUBDOMAIN": "marak.test",
+                    "NODE_ENV": "production",
+                    "npm_config_rebuild_bundle": false,
+                    "npm_config_production": true
+                },
+                "domains": [
+                    "www.marak-test.com",
+                    "marak-test.com"
+                ],
+                "databases": {},
+                "state": "stopped",
+                "maxDrones": 1,
+                "drones": 1,
+                "mtime": 1355355246670,
+                "resource": "App",
+                "_rev": "5-49604240cce0b5cf305a49e006633e35",
+                "directories": {
+                    "home": "hellonode"
+                },
+                "repository": {
+                    "type": "tar",
+                    "protocol": "cloudfiles",
+                    "container": "snapshots",
+                    "filename": "marak-test-0.0.0.tgz",
+                    "auth": {
+                        "username": "nodejitsudev",
+                        "apiKey": "76b0fdc1d3e6de08cdce9e568345470e"
+                    }
+                },
+                "version": "0.0.0",
+                "active": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "last": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "running": {
+                    "id": "0.0.0",
+                    "md5": "0123456789",
+                    "ctime": 1355355209005,
+                    "filename": "marak-test-0.0.0.tgz"
+                },
+                "bundleDependencies": [],
+                "dependencies": {}
+            },
+            "event": "spawn:begin"
+        }
+    },
+    {
+        "0": "info",
+        "1": "spawn:setup",
+        "2": {
+            "app": "envvars",
+            "user": "marak",
+            "event": "spawn:setup"
+        }
+    },
+    {
+        "0": "info",
+        "1": "tar:get",
+        "2": {
+            "type": "tar",
+            "user": "marak",
+            "name": "envvars",
+            "protocol": "cloudfiles",
+            "to": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars",
+            "event": "tar:get"
+        }
+    },
+    {
+        "0": "info",
+        "1": "user:create",
+        "2": {
+            "_id": "user/benji",
+            "username": "benji",
+            "inviteCode": "355b12a9-2823-4dd0-9652-12f9297cb808",
+            "status": "pending",
+            "email": "Benji@nodejitsu.com",
+            "profile": {},
+            "thirdPartyTokens": [],
+            "ctime": 1355355265950,
+            "mtime": 1355355265950,
+            "permissions": {},
+            "resource": "User"
+        }
+    },
+    {
+        "0": "info",
+        "1": "user:get",
+        "2": {
+            "_id": "user/dev",
+            "event": "user:get"
+        }
+    },
+    {
+        "0": "warn",
+        "1": "Attempt to start application with no snapshots",
+        "2": {
+            "app": "chat",
+            "username": "charlie",
+            "event": "app:start:no-snapshots"
+        }
+    },
+    {
+        "0": "warn",
+        "1": "repo:dir:notfound",
+        "2": {
+            "app": "envvars",
+            "dir": "/Users/dscape/Desktop/dev/nodejitsu/nodejitsu/node_modules/haibu/local/marak/envvars",
+            "user": "marak",
+            "event": "repo:dir:notfound"
+        }
+    }
+]
