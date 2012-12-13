@@ -4,9 +4,9 @@ var macros  = require('./macros');
 // Our `master` tests
 // should match `tests/fixtures/master.json`
 //
-macros.matchFixturesTest('master', function runTest(connection) {
-  connection.increment('foo.bar');
-  connection.decrement('foo.baz');
-  connection.decrement(['uno', 'two', 'trezentos']);
-  connection.count('boaz', 101);
+macros.match_fixtures_test('master', function runTest(logger) {
+  macros.args_for_fixtures('master').forEach(function (arg) {
+    arg.length = 3;
+    logger.log.apply(logger, [].slice.call(arg, 0));
+  });
 });

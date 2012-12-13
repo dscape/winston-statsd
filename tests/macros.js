@@ -1,8 +1,10 @@
-var path   = require('path')
-  , dgram  = require('dgram')
-  , test   = require('tap').test
-  , lynx   = require('lynx')
-  , macros = exports
+var path    = require('path')
+  , dgram   = require('dgram')
+  , test    = require('tap').test
+  , lynx    = require('lynx')
+  , winston = require('winston')
+  , wstatsd = require('../lib/winston-statsd')
+  , macros  = exports
   ;
 
 //
@@ -11,9 +13,14 @@ var path   = require('path')
 macros.udp_server_port = 9753;
 
 //
-// create a connection
+// instantiate our logger
 //
-macros.connection = new lynx('localhost', macros.udp_server_port);
+macros.logger = new (winston.Logger)(
+  { transports:
+    [ new (winston.transports.Statsd)(
+      { hostname: 'localhost', port: macros.udp_server_port } )
+    ]
+  });
 
 //
 // ### function udp_server(on_message)
@@ -68,42 +75,47 @@ macros.udp_fixtures_server = function (test_name, t, on_test) {
   //
   var socket = macros.udp_server(function (message, remote) {
     //
-    // we got another one
-    //
-    i_requests++;
-
-    //
     // `remote.address` for remote address
     // `remote.port` for remote port
     // `remote.size` for data lenght
     // `message.toString('ascii', 0, remote.size)` for textual contents
     //
-    var actual     = macros.parse_message(message, remote.size)
-      , i_expected = fixture.indexOf(actual)
-      ;
+    var full_msg = macros.parse_message(message, remote.size);
 
     //
-    // found it
+    // messages can be grouped and newline separated
     //
-    if (~i_expected) {
-      var expected = fixture[i_expected];
+    full_msg.split('\n').forEach(function (actual) {
+      //
+      // we got another one
+      //
+      i_requests++;
+
+      var i_expected = fixture.indexOf(actual);
 
       //
-      // remove the found item from fixture to test
+      // found it
       //
-      fixture.splice(i_expected, 1);
+      if (~i_expected) {
+        var expected = fixture[i_expected];
 
+        //
+        // remove the found item from fixture to test
+        //
+        fixture.splice(i_expected, 1);
+
+        //
+        // return our test results
+        //
+        on_test(true, {expected: expected, actual: actual, remaining: fixture});
+      }
       //
-      // return our test results
+      // we didn't find that response in the response array
       //
-      on_test(true, {expected: expected, actual: actual, remaining: fixture});
-    }
-    //
-    // we didn't find that response in the response array
-    //
-    else {
-      on_test(false, { expected: null, actual: actual, remaining: fixture});
-    }
+      else {
+        on_test(false, { expected: null, actual: actual, remaining: fixture});
+      }
+    });
 
     //
     // if we are done
@@ -123,6 +135,13 @@ macros.udp_fixtures_server = function (test_name, t, on_test) {
 };
 
 //
+//
+//
+macros.args_for_fixtures = function args_for_fixtures(resource) {
+  return require('./fixtures/' + resource + '-args');
+};
+
+//
 // ### function match_fixtures_test(resource, f)
 //
 // #### @resource {string} the resource we are testing
@@ -137,8 +156,6 @@ macros.udp_fixtures_server = function (test_name, t, on_test) {
 // 2.2. runs client code that should match what has been mocked
 //
 macros.match_fixtures_test = function match_fixtures_test(resource, f) {
-  var current_fixture = require('./fixtures/' + resource);
-
   //
   // all of our counting tests
   //
@@ -166,15 +183,7 @@ macros.match_fixtures_test = function match_fixtures_test(resource, f) {
       }
     });
 
-    //
-    // run our client code
-    //
-    if(resource === 'scopes') {
-      macros.connection.close();
-      macros.connection = new lynx('localhost', macros.udp_server_port, {
-        scope: 'scope' });
-    }
-    f(macros.connection);
+    f(macros.logger);
   });
 };
 
